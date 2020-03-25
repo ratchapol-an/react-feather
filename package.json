@@ -1,7 +1,7 @@
 {
-  "name": "react-feather",
-  "version": "2.0.3",
-  "description": "React component for Feather icons",
+  "name": "@ratchapol-an/react-feather",
+  "version": "4.26.1",
+  "description": "React component for Feather icons, forked from https://github.com/feathericons/react-feather",
   "main": "build/index.js",
   "module": "dist/index.js",
   "sideEffects": false,
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/feathericons/react-feather.git"
+    "url": "git+https://github.com/ratchapol-an/react-feather"
   },
   "keywords": [
     "react",
@@ -29,12 +29,12 @@
     "feather",
     "design"
   ],
-  "author": "Carmelo Pullara",
+  "author": "Ratchapol Anantawat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/feathericons/react-feather/issues"
+    "url": "https://github.com/ratchapol-an/react-feather/issues"
   },
-  "homepage": "https://github.com/feathericons/react-feather#readme",
+  "homepage": "https://github.com/ratchapol-an/react-feather#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
@@ -49,7 +49,7 @@
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.2",
-    "feather-icons": "^4.22.1",
+    "feather-icons": "^4.26.0",
     "prettier-eslint": "^9.0.0",
     "rollup": "^1.16.4",
     "rollup-plugin-babel": "^4.3.3",
@@ -60,5 +60,8 @@
   },
   "dependencies": {
     "prop-types": "^15.7.2"
+  },
+  "resolutions": {
+    "minimist": "^1.2.3"
   }
 }
